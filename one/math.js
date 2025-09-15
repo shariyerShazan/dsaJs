@@ -32,3 +32,32 @@ console.log(Math.abs(100)) // output - 100 // ! but not positive to negetive
 
 console.log(Math.max(10 , 20 , 100 , 40)) // output - 100 // ! maximun number 
 console.log(Math.min(10 , 20 , 100 , 40)) // output - 10 // ! minimum number 
+
+
+
+
+let x = 55.54523
+console.log(x) // output - 55.54523
+console.log(x.toFixed(2)) // output - "55.54" // ! remember it's a string
+console.log(x.toFixed(3)) // output - "55.545"
+// ! toFixed return string 
+console.log(Number(x.toFixed(2))) // output - 55.54 // ! it's number
+
+
+
+let y = 15
+console.log(String(y)) // output - "15" // ! convert to string
+
+
+
+let f = 15;
+let g = 30
+console.log("Area or rectangle is" , f * g) // output - Area or rectangle is 450
+
+
+
+let m = 5
+let n = 4
+let o = 3
+let s = (m + n + o)/2
+console.log("Area of a triangle is" , Math.sqrt(s * (s - m) * (s - n) * (s - o))) // output - 6
