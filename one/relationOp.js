@@ -2,8 +2,8 @@ console.log(10>5); // output - true
 console.log(5>10); // output - false
 
 
-// (variable = assign a value)
-//  (value == value) (value, type === value,type)
+// ! (variable = assign a value)
+// ! (value == value) (value, type === value,type)
 
 
 console.log(10 == "10"); // output - true

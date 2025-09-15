@@ -17,7 +17,7 @@ console.log(typeof(age3)) // output - number
 let name = Number(prompt("Enter your age here"))
 console.log(typeof(name)) // outoput - string
 
-// "12" can be conver in number 12 .. but "12a" or "shazaa" can't be convert in 12a or Number(shazan){it's always string} ...
+// ! "12" can be conver in number 12 .. but "12a" or "shazan" can't be convert in 12a or Number(shazan){it's always string} ...
 
 
 
