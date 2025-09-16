@@ -50,14 +50,24 @@ console.log(String(y)) // output - "15" // ! convert to string
 
 
 
+//  rectengle
 let f = 15;
 let g = 30
 console.log("Area or rectangle is" , f * g) // output - Area or rectangle is 450
 
 
 
+// triangle
 let m = 5
 let n = 4
 let o = 3
-let s = (m + n + o)/2
-console.log("Area of a triangle is" , Math.sqrt(s * (s - m) * (s - n) * (s - o))) // output - 6
+let s = (m + n + o)/2  // ! {(m + n) > o}  - it's must be two side multiple is getter then other one side value if it is a triangle
+console.log("Area of a triangle is" , Math.sqrt(s * (s - m) * (s - n) * (s - o))) // output - Area of a triangle is 6
+
+
+
+// circle
+let radiour = 12
+console.log("Area of a circle is" , (2* 3.1416 * 12)) // output - Area of a circle is 75.3984
+console.log("Area of a circle is" , (2* Math.PI * 12)) // output - Area of a circle is 75.39822368615503
+console.log("Area of a circle is" , Number((2* Math.PI * 12).toFixed(2))) // output - Area of a circle is 75.40
