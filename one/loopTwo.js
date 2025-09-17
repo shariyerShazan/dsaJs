@@ -74,7 +74,19 @@ while(num2 > 0){
     num2 = Math.floor(num2/10)
 }
 if(reverse2 === originalNum){
-    console.log("It's a palindrome number") // output - It's a palindrome number
+    console.log("It's a palindrome number") // output - "It's a palindrome number"
 }else{
     console.log("It's not a palindrome number")
 }
+
+
+
+let name = "shazan"
+let reverseStr = ""
+for(let i = (name.length-1) ; i >= 0; i--){
+    reverseStr += name[i]
+}
+console.log(reverseStr) // output - "nazahs"
+
+
+
