@@ -141,3 +141,18 @@ console.log(`${tweentyNote} note of * 20`); // output - "0 note of * 20"
 console.log(`${tenNote} note of * 10`); // output - "0 note of * 10"
 console.log(`${fiveNote} note of * 5`); // output - "1 note of * 5"
 console.log(`Remain ${taka} taka`); // output - "Remain 0 taka"
+
+
+
+
+
+// ternary oparetor
+console.log(true? "Shazan is available" : "Shazan isNot available") // output - "Shazan is available"
+console.log(!true? "Shazan is available" : "Shazan isNot available") // output - "Shazan isNot available"
+
+
+let num = 0
+console.log(num > 0? "Number positibe": num< 0 ? "Number negetive" : "Number zero");  // output - Number zero
+
+console.log((0.1 + 0.2)=== 0.3 ? "true" : "False") // output - false
+console.log(0.1 + 0.2) // output - 0.30000000000000004 // ! it's not equal to 0.3
