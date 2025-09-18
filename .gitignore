@@ -1,0 +1,16 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.env
+.DS_Store
+dist/
+build/
+coverage/
+
+# Editor/OS specific
+.vscode/
+*.swp
+*.swo
+*~

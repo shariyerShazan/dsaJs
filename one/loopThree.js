@@ -35,6 +35,7 @@ while(guessNum === randomNum){
     guessNum = Number(prompt("Enter your guess number here:"));
     if(isNaN(guessNum) || guessNum < 1 || guessNum > 100){
             console.log("Try again between 1-100 number")
+            continue
     }
     if(guessNum < randomNum){
         console.log("too low, try again");
@@ -44,3 +45,7 @@ while(guessNum === randomNum){
         console.log("Congrats, the number is" , randomNum)
     }
 }
+
+
+
+
